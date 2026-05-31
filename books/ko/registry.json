@@ -1,0 +1,10 @@
+{
+  "schema": "statground.book.registry.v1",
+  "language": "ko",
+  "generated_at": "2026-05-31T00:00:00Z",
+  "path_pattern": "books/{language}/items/{h0}/{h1}/{h2}/{h3}/{isbn}.json",
+  "shards": [],
+  "total_items": 0,
+  "shard_count": 0,
+  "registry_note": "Book item payloads are encrypted; registry contains only shard routing metadata."
+}
