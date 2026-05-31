@@ -3,8 +3,10 @@
   "language": "ko",
   "generated_at": "2026-05-31T00:00:00Z",
   "path_pattern": "books/{language}/items/{h0}/{h1}/{h2}/{h3}/{isbn}.json",
+  "detail_path_pattern": "books/{language}/items/{h0}/{h1}/{h2}/{h3}/{isbn}.json",
+  "list_archive_pattern": "books/{language}/lists/{yyyy}/{mm}/{dd}/{kind}.json",
   "shards": [],
   "total_items": 0,
   "shard_count": 0,
-  "registry_note": "Book item payloads are encrypted; registry contains only shard routing metadata."
+  "registry_note": "Root repo contains registry and future list archives; ISBN detail payloads are encrypted in detail shard repositories."
 }
